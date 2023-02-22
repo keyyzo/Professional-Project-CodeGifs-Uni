@@ -1,0 +1,17 @@
+Net Mechanic 
+
+First Draft Psuedocode
+
+CHECK if net IS EQUIPPED
+-> If net IS EQUIPPED, 
+-> -> SPAWN and ATTACH item TO PLAYER
+
+If ACTION is initiated
+-> SWING net WITH collider ATTACHED
+-> if collider INTERSECTS animal 
+-> -> CHECK animal strength/type AND GIVE RESULT based on data
+-> -> if RESULT equals TRUE, CAPTURE animal
+-> -> -> ELSE INITIATE struggle phase AND LET animal ESCAPE
+If action IS OVER
+-> RESET net
+-> RESET player

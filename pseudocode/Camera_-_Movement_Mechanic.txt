@@ -1,0 +1,36 @@
+Camera and Movement Mechanic
+
+First Draft Pseudocode
+
+CAMERA
+----------------------
+
+FOLLOW player
+KEEP SET distance FROM player
+CHECK if Right_Stick IS ACTIVE
+-> CHECK Right_Stick direction
+-> -> if Right_Stick direction IS horizontal
+-> -> -> ROTATE camera AROUND player IN horizontal axis
+-> -> if Right_Stick direction IS vertical
+-> -> -> TILT camera ABOVE AND BELOW player IN vertical axis
+CHECK if Right_Stick IS PRESSED
+-> RESET camera position TO origin
+----------------------
+
+MOVEMENT
+----------------------
+
+CHECK if Left_Stick IS ACTIVE
+-> CHECK Left_Stick direction
+-> -> MOVE player IN direction
+-> -> SET player speed EQUAL TO Left_Stick VALUE TIMES base move speed
+CHECK if jump button IS PRESSED
+-> APPLY VERTICAL FORCE TO player USING base jump force
+-> CHANGE gravity scale BASED ON player weight
+CHECK if crouch button IS PRESSED
+-> MAKE player model smaller
+-> SHORTEN detection radius
+-> APPLY sneak state
+-> SLOW player speed
+
+----------------------

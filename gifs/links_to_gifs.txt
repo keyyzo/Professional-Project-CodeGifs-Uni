@@ -1,0 +1,15 @@
+Camera Tweaking
+https://gyazo.com/8e92cc1aa5eaee7f085a72d109f3716e
+
+First Iteration of Trap
+https://gyazo.com/9f65ad0c52a866e309aeb78d898b4dfe
+
+Sneak and Detection Collidier
+https://gyazo.com/c56c95e8ddd28deb821972042f7094f2
+
+Finished Magnetiser and Boulder with Scrap
+https://gyazo.com/28590df5efc8ffd60c9da41f25a21cae
+
+Finished Trap
+https://gyazo.com/4ab7da225eae36183e1c039e1f37557c
+

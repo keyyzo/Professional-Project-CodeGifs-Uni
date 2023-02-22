@@ -1,0 +1,25 @@
+Magnetiser Mechanic
+
+First Draft Pseudocode
+
+----------------------
+
+If player has Magnetizer and is equipped
+-> If player has more than 0 magnetizer charges and pressing action button
+-> -> Spawn and throw charge in front of player
+-> -> Player can move boulder around by pushing it
+-> -> If boulder collides with same size or smaller trash
+-> -> -> Increase radius of the boulder
+-> -> -> Make boulder heavier and harder to push
+-> -> -> Add to overall player trash count
+-> -> If boulder reaches a certain weight
+-> -> -> Change boulder to heavier version
+-> -> -> Player can no longer / struggle to push the boulder
+-> -> If player and animals push heavier boulder together
+-> -> -> the boulder will move again like normal
+-> -> -> allows the boulder to pick up heavier items 
+-> If player has magnetizer upgrade and pressing secondary action button
+-> -> Magnetizer can help apply force to boulder, moving it easier
+-> -> Allows player to push / pull boulder in a specified direction
+
+----------------------
